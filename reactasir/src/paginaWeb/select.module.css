@@ -1,0 +1,26 @@
+select {
+    padding: 10px 20px; /* Más espacio horizontal para un efecto ovalado */
+    font-size: 16px;
+    border-radius: 30px; /* Más redondeo para una forma ovalada */
+    background-color: green; /* Color de fondo púrpura */
+    color: white;
+    border: none; /* Sin borde para un aspecto más limpio */
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  select:hover {
+    background-color: #7b1fa2; /* Cambia ligeramente el color al hacer hover */
+  }
+  
+  select:focus {
+    background-color: #4a148c; /* Color de fondo al seleccionar */
+    color: #ffccff; /* Color del texto cuando el select está enfocado */
+  }
+  
+  option {
+    background-color: #6a1b9a;
+    color: white;
+  }
+  

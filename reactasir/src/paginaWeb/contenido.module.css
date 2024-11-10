@@ -1,0 +1,38 @@
+main{
+    background-color:greenyellow;
+    height:500px;
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    
+}
+
+main section{
+    width:80%;
+    background-color:goldenrod;
+}
+
+main aside{
+    width:20%;
+    background-color: royalblue;
+    font-size: 20px;
+}
+
+@media (max-width:800px){
+    aside{
+        display:none;
+    }
+    main section{
+        width:100%;
+    }
+
+  }
+  section{
+    justify-content: center;
+    
+  }
+nav{
+    background-color: antiquewhite;
+    font-size: 20px;
+    text-align: center;
+}

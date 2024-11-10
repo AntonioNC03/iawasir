@@ -1,0 +1,10 @@
+section{
+    display:flex;
+    flex: wrap;
+}
+section article{
+    display:flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
