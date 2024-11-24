@@ -1,0 +1,18 @@
+.cabecera{
+    /* background-color:red; */
+    background-image: url('/Pokemon.jpg');
+    height:300px;
+    width:100%;
+    display:flex;
+    flex:row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (max-width:800px){
+    .cabecera{
+        background-color: greenyellow;
+        background-image: url('/Pokemon.jpg');
+    }
+
+  }
